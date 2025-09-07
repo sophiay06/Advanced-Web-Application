@@ -1,0 +1,14 @@
+{
+  "categories": [
+    { "name": "Books", "description": "All kinds of books" },
+    { "name": "Electronics", "description": "Gadgets & devices" }
+  ],
+  "items": [
+    { "name": "1984", "description": "by George Orwell", "category": "Books" },
+    {
+      "name": "Smartphone",
+      "description": "Latest model",
+      "category": "Electronics"
+    }
+  ]
+}

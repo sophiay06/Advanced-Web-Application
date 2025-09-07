@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% extends 'base.html' %} {% block title %}Home{% endblock %} {% block content
+  %}
+  <h1>Items</h1>
+  <ul id="items-list">
+    {% for item in items %}
+    <li>
+      {{ item.name }} - {{ item.description }}
+      <a href="/delete/{{ item.id }}">Delete</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <form id="add-item-form" action="/add" method="post">
+    <input name="name" placeholder="Name" required />
+    <input name="description" placeholder="Description" />
+    <button type="submit">Add Item</button>
+  </form>
+  {% endblock %}
+</html>

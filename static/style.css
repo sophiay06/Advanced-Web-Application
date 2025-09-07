@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+nav {
+  margin-bottom: 1rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 0.5rem 0;
+}
+form input {
+  margin-right: 0.5rem;
+}
